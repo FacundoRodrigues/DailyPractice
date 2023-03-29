@@ -1,5 +1,5 @@
 ﻿using EdabitPractice;
 
-ReturnTheFactorial.Run(3);
+var result = ReturnTheFactorial.Factorial(5);
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine(result);
