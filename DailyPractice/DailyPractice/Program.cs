@@ -1,4 +1,4 @@
-﻿using EdabitPractice;
+﻿using DailyPractice.Easy.Recursividad;
 
 var result = ReturnTheFactorial.Factorial(5);
 
