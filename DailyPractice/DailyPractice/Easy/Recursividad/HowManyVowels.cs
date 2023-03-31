@@ -12,10 +12,22 @@
      * All test cases are one word and only contain letters.
      */
 
-    public class HowManyVowels
+    public static class HowManyVowels
     {
-        public int GetVowels(string word)
+        public static int GetVowels(string word)
         {
+            if (word.Length == 0) return 1;
+
+            var a = word[word.Length - 1];
+
+            GetVowels(word[word.Length - 1].ToString());
+            Console.WriteLine();
+            return 0;
+        }
+
+        private static bool IsVowel()
+        {
+            throw new NotImplementedException();
         }
     }
 }

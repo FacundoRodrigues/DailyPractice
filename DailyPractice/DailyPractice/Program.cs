@@ -1,5 +1,7 @@
-﻿using DailyPractice.Easy.Recursividad;
+﻿using DailyPractice.Easy.HowManyVowels;
+using DailyPractice.Easy.Recursividad;
 
-var result = ReturnTheFactorial.Factorial(5);
+//var factorial = ReturnTheFactorial.Factorial(5);
+var vowels = HowManyVowels.GetVowels("Celebration");
 
-Console.WriteLine(result);
+Console.WriteLine(vowels);
