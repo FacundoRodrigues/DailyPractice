@@ -1,4 +1,4 @@
-﻿namespace DailyPractice.Easy
+﻿namespace BusinessLogic.Easy
 {
     /*
      * Check if a String Contains only Identical Characters

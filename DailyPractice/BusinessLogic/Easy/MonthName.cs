@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace DailyPractice.Easy
+namespace BusinessLogic.Easy
 {
     public static class MonthName
     {

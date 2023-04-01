@@ -1,4 +1,4 @@
-﻿namespace DailyPractice.Easy
+﻿namespace BusinessLogic.Easy
 {
     /*  Absolute Sum
      *  Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.

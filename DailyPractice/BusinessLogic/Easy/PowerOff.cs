@@ -1,4 +1,4 @@
-﻿namespace DailyPractice.Easy
+﻿namespace BusinessLogic.Easy
 {   /*  To the Power of
      *
      *  Create a function that takes a base number and an exponent number and returns the calculation.
