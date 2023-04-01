@@ -1,4 +1,4 @@
-﻿namespace DailyPractice.Easy.HowManyVowels
+﻿namespace DailyPractice.Easy
 {
     /*Create a function that takes a string and returns the number (count) of vowels contained within it.
      *
