@@ -15,6 +15,7 @@
     public static class IdenticalCharacters
     {
         //HasSet option
+        //https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1?view=net-6.0
         public static bool IsIdentical(string str)
         {
             HashSet<char> set = new HashSet<char>();
