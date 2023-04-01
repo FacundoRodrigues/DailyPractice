@@ -13,6 +13,8 @@
      *      The term "absolute value" means to remove any negative sign in front of a number, and to think of all numbers as positive (or zero).
      *      All the elements in the given array are integers.
      *
+     *  Fuentes:
+     *  https://www.mathsisfun.com/numbers/absolute-value.html
      */
 
     public static class AbsoluteSum
