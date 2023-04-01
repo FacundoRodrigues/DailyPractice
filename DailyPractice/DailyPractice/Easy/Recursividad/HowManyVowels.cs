@@ -14,20 +14,24 @@
 
     public static class HowManyVowels
     {
-        public static int GetVowels(string word)
+        public static int vowelsCount = 0;
+        public static int index = 0;
+
+        public static int CountVowels(string word)
         {
-            if (word.Length == 0) return 1;
+            index++;
+            if (index > word.Length) return vowelsCount;
 
-            var a = word[word.Length - 1];
+            var letter = word[word.Length - index];
+            if (IsVowel(letter)) vowelsCount++;
 
-            GetVowels(word[word.Length - 1].ToString());
-            Console.WriteLine();
-            return 0;
+            return CountVowels(word);
         }
 
-        private static bool IsVowel()
+        private static bool IsVowel(char letter)
         {
-            throw new NotImplementedException();
+            char[] vowels = new[] { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
+            return vowels.Any(vowel => vowel == letter);
         }
     }
 }
