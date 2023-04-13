@@ -1,4 +1,5 @@
-﻿using BusinessLogic.Easy;
+﻿using BusinessLogic;
+using BusinessLogic.Easy;
 using BusinessLogic.Easy.Recursividad;
 
 //var factorial = ReturnTheFactorial.Factorial(5);
@@ -8,6 +9,7 @@ using BusinessLogic.Easy.Recursividad;
 //var monthName = MonthName.GetMonthName(13);
 //var hacker = H4ck3rSp34k.HackerSpeakOptimized("javascript is cool");
 //var sameCase = CheckIfTheSameCase.SameCase("Hello");
-var shape = ShapesWithNSides.NSidedShapeV2(3);
+//var shape = ShapesWithNSides.NSidedShapeV2(3);
+var claps = RaucousApplause.CountClaps("CCClaClClap!Clap!ClClClap!");
 
-Console.WriteLine(shape);
+Console.WriteLine(claps);
