@@ -18,9 +18,6 @@
         private const string burp = "Bup";
         private const int indexToInsertRs = 2;
 
-        public static string LongBurp(int countOfRsToAdd)
-        {
-            return burp.Insert(indexToInsertRs, string.Concat(Enumerable.Repeat("r", countOfRsToAdd)));
-        }
+        public static string LongBurp(int countOfRsToAdd) => burp.Insert(indexToInsertRs, string.Concat(Enumerable.Repeat("r", countOfRsToAdd)));
     }
 }

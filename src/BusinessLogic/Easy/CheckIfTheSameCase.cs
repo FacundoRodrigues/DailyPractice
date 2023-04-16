@@ -14,9 +14,6 @@
         /// </summary>
         /// <param name="str"></param>
         /// <returns></returns>
-        public static bool SameCase(string str)
-        {
-            return str.All(x => char.IsLower(x)) || str.All(x => char.IsUpper(x));
-        }
+        public static bool SameCase(string str) => str.All(x => char.IsLower(x)) || str.All(x => char.IsUpper(x));
     }
 }

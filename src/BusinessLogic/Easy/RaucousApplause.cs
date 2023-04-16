@@ -16,10 +16,6 @@
     /// </summary>
     public static class RaucousApplause
     {
-        public static int CountClaps(string txt)
-        {
-            var a = txt.Count(x => x == 'C');
-            return a;
-        }
+        public static int CountClaps(string txt) => txt.Count(x => x == 'C');
     }
 }

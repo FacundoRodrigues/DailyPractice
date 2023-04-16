@@ -18,9 +18,6 @@
     /// <returns></returns>
     public static class MultiplyByLength
     {
-        public static int[] GetArray(int[] arr)
-        {
-            return arr.Select(x => x * arr.Length).ToArray();
-        }
+        public static int[] GetArray(int[] arr) => arr.Select(x => x * arr.Length).ToArray();
     }
 }

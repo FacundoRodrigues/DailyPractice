@@ -14,17 +14,20 @@ namespace BusinessLogic.Easy
     /// Notes
     ///     Your function must be case-insensitive.
     ///     Remember to return the result.
+    ///
+    /// Regex.Matches Method
+    /// https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex.matches?view=net-5.0
     /// </summary>
     public static class HowManyD_sAreThere
     {
-        public static string pattern = @"d";
+        //\b. Límite de palabra
+        //\w: Representa cualquier carácter no alfanumérico. Coincide con cualquier carácter que no sea una letra, un número o un guion bajo
+        //\w+:Significa "uno o más caracteres de palabra"
+        //\w*:El carácter \w coincide con cualquier carácter de palabra, incluyendo letras, números y el guión bajo "_".
+        //Ej:"h\w*o" coincidiría con "hello", "hero", "hollow", "how"
 
-        //Seguir probando este Pattern para entender como scapea el and, dog y Dalmatian
-        public static string pattern2 = @"\b\w+d\b";
+        public static string pattern = @"[dD]";
 
-        public static int CountDs(string str)
-        {
-            return Regex.Matches(str, pattern, RegexOptions.IgnoreCase).Count;
-        }
+        public static int CountDs(string str) => Regex.Matches(str, pattern).Count;
     }
 }

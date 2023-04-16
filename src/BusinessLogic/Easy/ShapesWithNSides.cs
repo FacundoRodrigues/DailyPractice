@@ -91,9 +91,6 @@
             return result;
         }
 
-        public static string NSidedShapeV2(int n)
-        {
-            return shapes.TryGetValue(n, out string value) ? value : string.Empty;
-        }
+        public static string NSidedShapeV2(int n) => shapes.TryGetValue(n, out string value) ? value : string.Empty;
     }
 }
