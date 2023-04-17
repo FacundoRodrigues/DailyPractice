@@ -3,7 +3,7 @@ using Xunit;
 
 namespace BusinessLogic.UT.HowManyD_sAreThereExercise
 {
-    public class HowManyD_sAreThereShould
+    public class HowManyDSAreThereShould
     {
         [Theory]
         [InlineData("The quick brown fox jumps over the lazy dog and the Dalmatian", 3)]
