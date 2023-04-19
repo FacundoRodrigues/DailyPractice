@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace BusinessLogic.UT.RaucousApplauseExercise
+namespace BusinessLogic.UT.Easy.RaucousApplauseExercise
 {
     public class RaucousApplauseShould
     {

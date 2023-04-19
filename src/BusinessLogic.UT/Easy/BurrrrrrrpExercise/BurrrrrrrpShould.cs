@@ -1,7 +1,7 @@
 ﻿using BusinessLogic.Easy;
 using Xunit;
 
-namespace BusinessLogic.UT.BurrrrrrrpExercise
+namespace BusinessLogic.UT.Easy.BurrrrrrrpExercise
 {
     public class BurrrrrrrpShould
     {

@@ -1,7 +1,7 @@
 ﻿using BusinessLogic.Easy;
 using Xunit;
 
-namespace BusinessLogic.UT.HowManyD_sAreThereExercise
+namespace BusinessLogic.UT.Easy.HowManyD_sAreThereExercise
 {
     public class HowManyDSAreThereShould
     {

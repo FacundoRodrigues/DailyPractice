@@ -1,7 +1,7 @@
 ﻿using BusinessLogic.Easy;
 using Xunit;
 
-namespace BusinessLogic.UT.StutteringFunctionExercise
+namespace BusinessLogic.UT.Easy.StutteringFunctionExercise
 {
     public class StutteringFunctionShould
     {
